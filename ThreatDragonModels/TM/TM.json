@@ -26,16 +26,25 @@
               "angle": 0,
               "id": "8df3e515-4ba9-4d4e-885f-37f3e49aec07",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "bad 2",
+                  "type": "Repudiation"
+                }
+              ],
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "process 0"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -52,16 +61,24 @@
               "angle": 0,
               "id": "3b88d64d-59c4-491f-b3ec-11594aeec638",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "bad 1",
+                  "type": "Spoofing"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "store 1"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -76,10 +93,6 @@
               },
               "vertices": [
                 {
-                  "x": 202,
-                  "y": 38
-                },
-                {
                   "x": 239,
                   "y": 54
                 },
@@ -88,12 +101,12 @@
                   "y": 82
                 },
                 {
-                  "x": 254,
-                  "y": 103
+                  "x": 253,
+                  "y": 104
                 },
                 {
-                  "x": 254,
-                  "y": 172
+                  "x": 257,
+                  "y": 150
                 }
               ],
               "id": "91bdcb1a-f0ea-4e0e-802f-a5492ad5dc55",
@@ -133,12 +146,28 @@
               },
               "vertices": [
                 {
+                  "x": 149,
+                  "y": 172
+                },
+                {
+                  "x": 174,
+                  "y": 158
+                },
+                {
                   "x": 210,
                   "y": 138
                 },
                 {
                   "x": 292,
                   "y": 131
+                },
+                {
+                  "x": 334,
+                  "y": 138
+                },
+                {
+                  "x": 348,
+                  "y": 141
                 }
               ],
               "id": "a16bec27-7527-43ce-9fe0-37a777e8d63d",
